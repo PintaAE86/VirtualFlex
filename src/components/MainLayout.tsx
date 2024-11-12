@@ -1,7 +1,7 @@
 
 
 function MainLayout (){
-    return ("mainlayout")
+    return ((<h1>TaskContainer</h1>))
 }
 
 export default MainLayout;
