@@ -12,19 +12,22 @@
   max-height: 90vh;
 }
 
-.header {
-  border: thick double #00A4BD;
-}
-
-.header__title {
-
-}
-
-.sidebar{
+.main__header {
+  grid-row: 1;
+  grid-column: 1 /6;
   border: thick double #00A4BD;
 }
 
 
-.main{
+.main__sidebar{
+  grid-row: 2/6;
+  grid-column: 1;
+  border: thick double #00A4BD;
+}
+
+
+.main__layout{
+  grid-row: 2/ 6;
+  grid-column: 2 /6;
   border: thick double #00A4BD;
 }

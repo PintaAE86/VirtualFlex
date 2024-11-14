@@ -9,16 +9,13 @@ function App() {
 
   return (
     <main className='main'>
-      <div className='header'>
+      <div className='main__header'>
         <h1 className='header__title'>Title</h1>
       </div>
-      <div className='sidebar'>
+      <div className='main__sidebar'>
         <Sidebar />
       </div>
-      <div className='main'>
-        < MainLayout />
-      </div>
-      <div className='main'>
+      <div className='main__layout'>
         < MainLayout />
       </div>
     </main>
