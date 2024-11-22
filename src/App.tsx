@@ -2,6 +2,7 @@
 import './App.css'
 import MainLayout from './components/MainLayout';
 import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       <div className='main__layout'>
         < MainLayout />
       </div>
+      <footer className='footerContainer'>
+        <Footer />
+      </footer>
     </main>
   )
 }

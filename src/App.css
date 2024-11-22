@@ -6,10 +6,11 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 5fr ;
+  grid-template-rows: 1fr 5fr 1fr;
   grid-template-areas: 
   'sidebar header'
-  'sidebar mainlayout';
+  'sidebar mainlayout'
+  'footer footer';
   height: 100vh;
 }
 
@@ -27,6 +28,11 @@
 
 .main__layout{
   grid-area: mainlayout;
+  border: thick double #009933;
+}
+
+.footerContainer{
+  grid-area: footer;
   border: thick double #009933;
 }
 
