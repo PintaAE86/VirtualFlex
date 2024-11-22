@@ -10,7 +10,7 @@ function App() {
   return (
     <main className='main'>
       <div className='main__header'>
-        <h1 className='header__title'>Title</h1>
+        <h1 className='header__title'>Virtual Shift</h1>
       </div>
       <div className='main__sidebar'>
         <Sidebar />

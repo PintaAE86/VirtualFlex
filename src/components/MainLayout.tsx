@@ -1,7 +1,10 @@
 
 
 function MainLayout (){
-    return ((<h1>TaskContainer</h1>))
+    return (<div>
+        <label for="newLongGoal">Add Long Term goal</label>
+        <input type="text" id="newLongGoal" name="newLongGoal" />
+    </div>)
 }
 
 export default MainLayout;
